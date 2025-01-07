@@ -1,31 +1,75 @@
 # Laptop Price Predictor
 
-Create virtualenv using python and set endearment name `env`.
+### Install virtualenv
+
+Windows
+```cmd
+pip install virtualenv
+```
+
+Linux
+```sh
+sudo apt install python3-virtualenv
+```
+
+<br>
+
+### Create virtualenv using python and set endearment name `env`.
+
+Windows
 ```python
 python -m virtualenv env
 ```
 
-Activate to endearment execute this command in `CMD`.
+Linux
+```python
+python3 -m virtualenv env
+```
+
+<br>
+
+### Activate to endearment execute this command in `CMD`.
+
+Windows
 ```cmd
 env\Scripts\activate
 ```
 
-Deactivate to endearment execute this command in `CMD`.
+Linux
+```python
+source env/bin/activate
+```
+
+<br>
+
+### Deactivate to endearment execute this command in `CMD`.
 ```cmd
 deactivate
 ```
 
-Setup env with installing required libs that list with `requirements.txt`.
+### Setup env with installing required libs that list with `requirements.txt`.
+
+Windows
 ```cmd
 pip install -r requirements.txt
 ```
 
-Verify Installation
+Linux
+```python
+pip3 install -r requirements.txt
+```
+
+<br>
+
+
+### Verify Installation
 ```cmd
 pip list
 ```
 
-Open Jupyter notebook
+<br>
+
+### Open Jupyter notebook
 ```cmd
 jupyter notebook
 ```
