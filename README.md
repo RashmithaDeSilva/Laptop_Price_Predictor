@@ -47,7 +47,7 @@ source env/bin/activate
 deactivate
 ```
 
-<be>
+<br>
 
 ### Setup env with installing required libs that list with `requirements.txt`.
 
